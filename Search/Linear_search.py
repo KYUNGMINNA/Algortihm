@@ -3,7 +3,6 @@ def Linear_search(arr, n, x):
         if (arr[i] == x):
             return i
     return -1
-# Time complexity  O(n)
 
 arr = [1, 0, 100, 50, 30]
 target = 30
