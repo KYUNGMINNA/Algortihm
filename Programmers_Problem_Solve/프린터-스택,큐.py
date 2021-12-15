@@ -16,6 +16,7 @@ def solution(priorities, location):
             else:
                 location-=1
     return answer
+
 priorities=[2,1,3,2]
 location=2
 solution(priorities,location)
