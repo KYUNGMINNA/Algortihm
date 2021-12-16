@@ -15,7 +15,7 @@ def solution(priorities, location):
                 location=len(priorities)-1
             else:
                 location-=1
-    return answer
+    return print(answer)
 
 priorities=[2,1,3,2]
 location=2
