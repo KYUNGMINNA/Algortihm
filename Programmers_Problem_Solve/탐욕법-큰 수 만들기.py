@@ -8,6 +8,5 @@ def solution(number, k):
         answer.append(i)
 
     return print(''.join(answer[:len(answer) - k]))
-number="4177252841"
-k=4
-solution(number,k)
+
+solution("4177252841",4)
