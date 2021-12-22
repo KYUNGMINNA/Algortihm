@@ -8,10 +8,7 @@ def solution(n, lost, reserve):
             b.remove(i - 1)
         elif i + 1 in b:
             b.remove(i + 1)
-    return n - len(b)
+    return print(n - len(b))
 
-n=5
-lost=[2,4]
-reserve=[3]
 
-solution(n,lost,reserve)
+solution(5,[2,4],[3])
