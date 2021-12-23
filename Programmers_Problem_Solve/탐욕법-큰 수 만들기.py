@@ -6,7 +6,7 @@ def solution(number, k):
             answer.pop()
             k -= 1
         answer.append(i)
-
     return print(''.join(answer[:len(answer) - k]))
+
 
 solution("4177252841",4)
