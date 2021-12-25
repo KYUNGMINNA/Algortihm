@@ -17,5 +17,4 @@ def solution(answers):
         if cnt[j] == max(cnt):
             answer.append(j + 1)
     return print(sorted(answer))
-answers=[1,3,2,4,2]
-solution(answers)
+solution([1,3,2,4,2)
