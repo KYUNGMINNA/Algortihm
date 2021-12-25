@@ -9,7 +9,5 @@ def solution(brown, yellow):
                 break
     return print(answer)
 
-brown=24
-yellow=24
 
-solution(brown,yellow)
+solution(24,24)
