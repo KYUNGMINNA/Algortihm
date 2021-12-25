@@ -20,5 +20,5 @@ def solution(numbers):
                 answers.append(int(k))
     return print(len(set(answers)))
 
-answers="011"
-solution(answers)
+
+solution("011")
