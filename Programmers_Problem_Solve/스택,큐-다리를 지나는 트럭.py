@@ -16,10 +16,7 @@ def solution(bridge_length, weight, truck_weights):
 
     return print(answer)
 
-bridge_length=2
-weight=10
-truck_weights=[7,4,5,6]
-solution(bridge_length, weight, truck_weights)
+solution(2,10,[7,4,5,6])
 
 #deque Solution
 def solution2(bridge_length, weight, truck_weights):
@@ -37,7 +34,4 @@ def solution2(bridge_length, weight, truck_weights):
 
     return print(answer)
 
-bridge_length2=2
-weight2=10
-truck_weights2=[7,4,5,6]
-solution2(bridge_length2, weight2, truck_weights2)
+solution2(2,10,[7,4,5,6])
