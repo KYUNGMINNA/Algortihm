@@ -15,7 +15,5 @@ def solution(progresses, speeds):
     a.append(count)
     return print(a)
 
-progresses=[93,30,55]
-speeds=[1,30,5]
-solution(progresses,speeds)
+solution([90,30,55],[1,30,5])
 # https://programmers.co.kr/learn/courses/30/lessons/42586
