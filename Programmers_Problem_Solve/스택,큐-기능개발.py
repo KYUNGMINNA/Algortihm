@@ -2,7 +2,7 @@ def solution(progresses, speeds):
     a=[]
     num=0
     count=0
-    while progresses:
+    while len(progresses)!=0:
         if progresses[0]+num*speeds[0]>=100:
             progresses.pop(0)
             speeds.pop(0)
