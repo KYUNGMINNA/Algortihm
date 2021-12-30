@@ -14,6 +14,5 @@ def solution(prices):
         answer.append(sec)
     return print(answer)
 
-prices=[1,2,3,2,3]
 
-solution(prices)
+solution([1,2,3,2,3])
