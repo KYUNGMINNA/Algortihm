@@ -5,6 +5,8 @@ def solution(begin, target, words):
     q = deque()
     q.append([begin, 0])
     V = [0 for i in range(len(words))]
+    v=[0]*len(words)
+    print(v)
     while q:
         word, cnt = q.popleft()
         if word == target:
