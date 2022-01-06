@@ -2,8 +2,9 @@
 a,b=map(int,input().split())
 c=list(map(int,input().split()))
 
-from itertools import permutations
 
+# 순열 방법
+from itertools import permutations
 p=permutations(c,3)
 answer=0
 print(list(p))
@@ -13,7 +14,7 @@ for i in p:
 print(answer)
 
 
-
+#반복문 방법 
 for i in range(len(c)):
     for j in range(i+1,len(c)):
         for k in range(j+1,len(c)):
