@@ -13,8 +13,7 @@ for i in p:
         answer=max(answer,sum(i))
 print(answer)
 
-
-#반복문 방법 
+#반복문 방법
 for i in range(len(c)):
     for j in range(i+1,len(c)):
         for k in range(j+1,len(c)):
